@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 768px){
   
-  
+ 
 /* barre navigation */
 
     #flexnav{
@@ -122,40 +122,34 @@
 
     /* section hebergement + populaire*/
 
+    #container section {
+        margin: 0;
+    }
+
     #lodging , #activities {
         background-color: white;
     }
-
+    
     #popular {
         border-radius: 0px;
     }
 
-    
-    #container section {
-        margin: 0;
-    }
- 
-    #container article {
-        width: 90%;
-        margin: 10px auto;
-    }
 
     #popular div:nth-child(2){
         flex-direction: column;
         align-items: center;
     }
 
+    #lodging article , #popular article , #activities article {
+        width: 95%;
+        margin: 15px auto;
+        max-width: 420px;
+    }
 
     /* section activité */
 
     #activities > div {
         flex-direction: column;
-    }
-
-    #activities article{
-        margin-top: 20px;
-        width: 90%;
-        margin: 10px auto;
     }
 
     #activities div div:nth-child(2n){
