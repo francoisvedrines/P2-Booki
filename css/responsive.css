@@ -1,0 +1,175 @@
+/* tablettes <992 */
+
+@media screen and (max-width: 992px){
+
+    /* filtres */
+
+    #filters {
+        display: block;
+        
+    }
+    #filters p {
+        margin-bottom: 20px;
+    }
+
+    filters_button
+
+    body{
+        margin: 0;
+    }
+
+    header section {
+        margin: 40px 0;
+    }
+
+
+    /* section hébergement + populaire*/
+    
+    #container {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    #lodging , #popular{
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    #popular div:nth-child(2){
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #popular article {
+        width: 31%;
+    }
+
+    #popular a div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+/* mobiles <768 */
+
+@media screen and (max-width: 768px){
+  
+  
+/* barre navigation */
+
+    #flexnav{
+        flex-direction: column;
+        margin: 0 -20px;
+    }
+
+    #flexnav nav{
+        width: 100%;
+    }
+
+    #flexnav li {
+        flex: 1;
+        text-align: center; 
+        border-bottom: 4px solid var(--grey);   
+    }
+
+    #flexnav a {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;   
+    }
+
+    #flexnav > nav a {
+        padding: 18px 40px;
+    }
+
+    #flexnav > nav a:hover{
+        border-top: none;
+    }
+
+    #flexnav li:hover{
+        border-bottom: 4px solid var(--blue);
+        color: var(--blue);
+    }
+
+
+
+     /* recherche */
+
+    #search {
+        display: flex;
+        justify-content: center;
+    }
+   
+    #btn_search {
+        display:none;
+    }
+
+    #search::after{
+        font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f002";
+        background-color: var(--blue);
+        color: white;
+        border-radius: 10px;
+        padding: 18px;
+        margin-left: -5px;
+        cursor: pointer;
+    }
+
+    
+
+    /* section hebergement + populaire*/
+
+    #lodging , #activities {
+        background-color: white;
+    }
+
+    #popular {
+        border-radius: 0px;
+    }
+
+    #container article {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #popular div:nth-child(2){
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* section activité */
+
+    #activities > div {
+        flex-direction: column;
+    }
+
+    #activities article{
+        margin-top: 20px;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    #activities div div:nth-child(2n){
+        width: 100%;  
+    }
+    #activities div div:nth-child(1n) {
+        width: 100%;
+    }
+
+    #activities img{
+        height: 130px;
+    }
+
+
+    /* footer */
+
+    footer {
+        display: block;
+    }
+
+}
