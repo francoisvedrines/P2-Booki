@@ -78,7 +78,6 @@
 
     #flexnav a {
         display: block;
-        width: 100%;
         margin: 0;
         padding: 0;   
     }
@@ -131,6 +130,11 @@
         border-radius: 0px;
     }
 
+    
+    #container section {
+        margin: 0;
+    }
+ 
     #container article {
         width: 90%;
         margin: 10px auto;
