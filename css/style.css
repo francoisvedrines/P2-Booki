@@ -254,7 +254,7 @@ input , input::placeholder {
 }
 
 #container section {
-    margin:auto 20px;
+    margin:20px;
 }
 
 #lodging {
@@ -328,7 +328,6 @@ input , input::placeholder {
 
 #popular a { 
     display: flex;
-    height: 180px;
 }
 #popular a div:first-child {
     width: 45%;
